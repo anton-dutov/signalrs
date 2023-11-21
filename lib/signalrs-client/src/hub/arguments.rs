@@ -63,6 +63,7 @@ macro_rules! impl_hub_argument {
     };
 }
 
+impl_hub_argument!(bool);
 impl_hub_argument!(usize, isize);
 impl_hub_argument!(f32, f64);
 impl_hub_argument!(i8, i16, i32, i64, i128);
